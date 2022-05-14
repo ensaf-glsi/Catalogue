@@ -4,7 +4,7 @@ package web;
 import java.io.IOException;
 import java.util.List;
 
-import org.apache.catalina.connector.Response;
+//import org.apache.catalina.connector.Response;
 
 import dao.IProduitDao;
 import dao.ProduitDaoImpl;
@@ -47,7 +47,7 @@ public class ControleurServlet extends HttpServlet {
 			request.getRequestDispatcher("Confirmation.jsp").forward(request, response);
 		}
 		else {
-			response.sendError(Response.SC_NOT_FOUND);
+//			response.sendError(Response.SC_NOT_FOUND);
 		}
 	}
 	@Override

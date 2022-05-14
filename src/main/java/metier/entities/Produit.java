@@ -7,6 +7,7 @@ public class Produit implements Serializable{
 	private String designation;
 	private double prix;
 	private int quantite;
+
 	public Produit() {
 		super();
 		// TODO Auto-generated constructor stub
